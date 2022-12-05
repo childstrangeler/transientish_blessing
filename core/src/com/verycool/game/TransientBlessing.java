@@ -20,10 +20,9 @@ public class TransientBlessing extends ApplicationAdapter {
 	@Override
 	public void create() {
 		camera = new OrthographicCamera();
-		camera.setToOrtho(false, 800, 480);
+		camera.setToOrtho(false, 1000, 760);
 
 		batch = new SpriteBatch();
-		img = new Texture("kræft_clp.jpg");
 		player = new Rectangle();
 		player.x = 720 / 2 - 64 / 2;
 		player.y = 30;
